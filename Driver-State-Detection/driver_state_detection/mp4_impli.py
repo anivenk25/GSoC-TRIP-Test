@@ -126,10 +126,11 @@ def main():
                        gaze_thresh=args.gaze_thresh, pose_time_thresh=args.pose_time_thresh,
                        verbose=args.verbose)
 
-    # Capture the input from the MP4 file
+    # Capture the input from the MP4 file%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     video_path = "D:\edited driver.mp4"
     cap = cv2.VideoCapture(video_path)
-
+    #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    
     # Check if the video file is opened successfully
     if not cap.isOpened():
         print("Cannot open video file:", video_path)
