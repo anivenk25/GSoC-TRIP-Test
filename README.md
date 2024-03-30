@@ -8,7 +8,7 @@ This project aims to utilize machine learning techniques to analyze, quantify, a
 
 ## Problem Statements and Proposed Solutions
 
-### 1. Quantifying Driver Risk:
+### 1. Quantifying Driver Risk:(trip-test-gsoc.ipynb)
 
 **Problem Statement:** Traditional methods for quantifying driver risk lack sophistication and fail to capture nuanced patterns of risky driving behavior.
 
@@ -18,7 +18,7 @@ This project aims to utilize machine learning techniques to analyze, quantify, a
 - Anomaly Detection Score: Proportion of data points flagged as anomalies by the Isolation Forest algorithm.
 - Average Anomaly Score: Mean anomaly score computed across all data points, providing a measure of the severity of risky driving incidents.
 
-### 2. Evaluating Driving Environment Risk:
+### 2. Evaluating Driving Environment Risk:(trip-test-gsoc.ipynb)
 
 **Problem Statement:** Assessing the risk inherent in the simulated driving environment is challenging due to factors such as road conditions, traffic density, and environmental hazards.
 
@@ -28,7 +28,7 @@ This project aims to utilize machine learning techniques to analyze, quantify, a
 - Environmental Anomaly Detection Score: Proportion of environmental conditions flagged as anomalies by the Isolation Forest algorithm.
 - Average Environmental Anomaly Score: Mean anomaly score computed across all environmental conditions, providing a measure of the severity of hazardous situations.
 
-### 3. Monitoring Driver Attentiveness:
+### 3. Monitoring Driver Attentiveness:(Driver-State-Detection/driver_state_detection/mp4_impli.py)
 
 **Problem Statement:** Traditional methods for monitoring driver attentiveness may lack precision and real-time capabilities.
 
@@ -39,7 +39,7 @@ This project aims to utilize machine learning techniques to analyze, quantify, a
 - Gaze Score: L2 norm distance between the eye center and pupil position, quantifying the direction of the driver's gaze.
 - Head Pose: Euler angles representing the orientation of the driver's head, indicating deviations from a neutral position.
 
-### 4. Detecting Signs of Drowsiness:
+### 4. Detecting Signs of Drowsiness:(Driver-State-Detection/driver_state_detection/mp4_impli.py)
 
 **Problem Statement:** Identifying signs of drowsiness in drivers is essential for preventing fatigue-related accidents.
 
@@ -48,7 +48,7 @@ This project aims to utilize machine learning techniques to analyze, quantify, a
 **Metrics Developed:**
 - PERCLOS (PERcentage of CLOSure eye time): Measure of the proportion of time the eyes are closed, indicating drowsiness or fatigue.
 
-### 5. Identifying Safety Hazards in the Driving Environment:
+### 5. Identifying Safety Hazards in the Driving Environment:(driver_attention_seeker.ipynb)
 
 **Problem Statement:** Manual hazard detection methods may be time-consuming and error-prone.
 
