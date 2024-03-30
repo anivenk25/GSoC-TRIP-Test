@@ -56,6 +56,7 @@ This project aims to utilize machine learning techniques to analyze, quantify, a
 
 **Metrics Developed:**
 - Object Detection Accuracy: Measure of the algorithm's ability to accurately detect and classify safety hazards in the driving environment.
+- model is hosted here https://universe.roboflow.com/sauvc-models/road-object-detection-sroot/model/1
 
 ## Conclusion
 
